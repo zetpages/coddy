@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #243B55, #141E30);
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h2 {
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.courses {
+    margin: auto;
+    padding: 20px;
+    max-width: 980px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.web_mastering {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 500px) {
+    .courses {
+        display: block;
+    }
+}
